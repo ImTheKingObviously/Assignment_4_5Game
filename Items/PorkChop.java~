@@ -1,0 +1,18 @@
+public class PorkChop extends Bonus{
+
+  public int bonus = 10;
+
+  
+  public Dagger(int[] pos){
+  
+  super(pos);
+  
+  }
+  
+    public String ShowName(){
+  
+    return "pork chop";
+  
+  }
+  
+}

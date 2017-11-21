@@ -1,0 +1,18 @@
+public class Chicken extends Bonus{
+
+  public int bonus = 10;
+
+  
+  public Chicken(int[] pos){
+  
+  super(pos);
+  
+  }
+  
+    public String ShowName(){
+  
+    return "whole chicken";
+  
+  }
+  
+}

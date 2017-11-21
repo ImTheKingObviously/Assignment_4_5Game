@@ -1,0 +1,8 @@
+public abstract class KeyItem extends Thing{
+
+  public boolean found = false;
+  
+  public KeyItem(int[] pos){super(pos);}
+  
+
+}

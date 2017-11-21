@@ -1,0 +1,9 @@
+public abstract class Thing {
+
+  public int[] position;
+  public String name;
+  
+  public Thing(int[] pos){
+    this.position = pos;
+  }
+}

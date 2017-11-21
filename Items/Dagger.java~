@@ -1,0 +1,12 @@
+public class Dagger extends Weapon{
+
+  public int bonus = 1;
+
+  
+  public Dagger(int[] pos){
+  
+  super(pos);
+  
+  }
+  
+}
