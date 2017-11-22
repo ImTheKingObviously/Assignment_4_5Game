@@ -4,7 +4,7 @@ public abstract class Player{
 //Class ATTRIBUTES
   
   public int[] Position; // Position(x,y)
-  private String[] Inventory; //Inventory
+  private Thing Inventory; //Inventory
   
 
   // Player object
