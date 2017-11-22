@@ -15,6 +15,7 @@ public abstract class Player{
   // Method Despawn
   public void Despawn(){
     this.Position = null;
+    this.Inventory.Drop(this.Position);
   // * * * * * Drop inventory (must do)* * * * *
   }
   
