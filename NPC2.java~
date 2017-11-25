@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public abstract class NPC2 extends NPC{
+  
+  public String riddle;
+  
+  public String dialogue(){
+    
+    Scanner key = new Scanner(System.in);
+    
+    System.out.println("What's 2 plus 2? ");
+    
+    if(
+    int answer = key.nextInt(); 
+    
+    
+  }
+  
+}// end of clas

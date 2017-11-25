@@ -1,0 +1,18 @@
+public class NPC1 extends NPC{
+  
+  //NPC1 Object
+  public NPC1(int[] Position){
+    super(Position);
+    }
+
+  
+  //Despawn plus gives dagger
+  public void Despawn(){
+    super.Despawn();
+    System.out.println("Shit's afoot here's a dagger.");
+    
+// * * * GIVE THIS GUY A DAGGER, Must Do * * * 
+    
+  }//Despawn close
+  
+}// CLASS END
