@@ -1,0 +1,5 @@
+public class Entrance extends Room{
+  
+  public boolean isEntrance = true;
+
+}

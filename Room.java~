@@ -1,0 +1,19 @@
+public class Room{
+
+  public int[2] Location;
+  public Player[2] Players;
+  public Thing item;
+  
+  public Room(Player player, int[] location){
+  
+  this.Players[0] = player;
+  this.Location = location;
+  
+  }
+  
+  public Room(int[] location){
+  
+  this.Location = location;
+  
+  }
+}
